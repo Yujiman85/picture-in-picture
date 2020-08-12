@@ -11,7 +11,7 @@ async function selectMediaStream() {
             videoElement.play();
         }
     } catch(error) {
-
+        console.log(error)
     }
 }
 
