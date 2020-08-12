@@ -9,8 +9,8 @@ async function selectMediaStream() {
         // Returns true when video is fully loaded
         videoElement.onloadedmetadata = () => {
             videoElement.play();
-        }
-    } catch(error) {
+        };
+    } catch (error) {
         console.log(error)
     }
 }
